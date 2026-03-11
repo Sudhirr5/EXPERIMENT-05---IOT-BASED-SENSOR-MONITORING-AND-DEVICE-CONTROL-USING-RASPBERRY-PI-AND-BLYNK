@@ -2,10 +2,10 @@
 
 ---
 
-### **NAME:**  
-### **DEPARTMENT:**  
-### **ROLL NO:**  
-### **DATE OF EXPERIMENT:**  
+### NAME: SUDHIR KUMAR. R
+### DEPARTMENT: AI DS
+### ROLL NO: 212223230221
+### DATE OF EXPERIMENT: 11/03/2026
 
 ---
 
@@ -136,7 +136,7 @@ import BlynkLib
 import time
 
 # Blynk Authentication Token
-BLYNK_AUTH = 'Your_Blynk_Auth_Token'
+BLYNK_AUTH = 'woyNHzwfs2GTf8jGHpZjKn7cl3GHstnc'
 
 # Initialize Blynk
 blynk = BlynkLib.Blynk(BLYNK_AUTH)
@@ -199,6 +199,7 @@ while True:
     blynk.virtual_write(1, ldr_value)
 
     time.sleep(1)
+
 
 ...
 ```
